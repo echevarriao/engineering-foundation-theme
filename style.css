@@ -1,0 +1,637 @@
+/*
+Theme Name: Engineering Foundation Theme
+Theme URI: http://www.mse.engr.uconn.edu
+Author: O. Echevarria
+Author URI: http://www.engr.uconn.edu
+Description: The Engineering Foundation Theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom "Ephemera" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured "sticky" posts), and special styles for six different post formats.
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: engr_foundation
+*/
+
+.long-row{
+    
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    
+}
+
+.debug{
+    
+    border: 1px solid #000;
+    
+}
+
+body{
+    
+    background-color: #000e2f;
+    
+}
+
+#bannertop{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bannertop li{
+    
+    display: inline
+    
+}
+
+#bannertop li div{
+    
+    position: relative;
+    float: left;
+    
+}
+
+.uc-bluebg{
+    
+    background-color: #000e2f;    
+    
+}
+
+.uc-orange{
+    
+    background-color: #ff5000;
+    
+}
+
+.uc-whitebg{
+    
+    background-color: #ffffff;
+    
+}
+
+.uc-blackbg{
+    
+    background-color:#000000;
+    
+}
+
+#uc-sep{
+
+    padding: 12px 9px;    
+    
+}
+
+#uc-fn{
+    
+    padding: 10px 0;    
+    
+}
+
+.uc-blue-gradient{
+    
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #192B5F), color-stop(1, #0F1938));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #192B5F 0%, #0F1938 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #192B5F 0%, #0F1938 100%);    
+    
+}
+
+.uc-whitebg{
+    
+    background-color: #ffffff;
+    
+}
+
+#iconsbox{
+    
+    margin: 0;
+    padding:10px;
+    list-style: none;
+    float: right;
+    
+}
+
+#iconsbox li {
+    
+    display: inline-table;
+    
+}
+
+#iconsbox li div{
+    
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #304994), color-stop(1, #1C3173));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #304994 0%, #1C3173 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #304994 0%, #1C3173 100%);    
+
+height: 32px;
+width: 32px;
+border: 1px solid #1e2b51;
+text-align: center;
+-webkit-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+-moz-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+line-height: 32px;
+
+}
+
+#iconsbox li div:hover{
+    
+    background-image: none;
+    background-color: #0000ff;
+
+}
+
+#iconsbox li div img{
+    
+    border: 0;
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#iconsbox li div a {
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    height: 32px;
+    
+}
+
+span#uconn-signature {
+    
+    font-family: "uconn_extendedregular", arial, helvetica, sans-serif;
+    font-size: 32px;
+        
+}
+
+span#uconn-signature a{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+span#uconn-fullname {
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+span#uconn-fullname a{
+    
+    color: #9faab2;
+    text-decoration: none;
+    
+}
+
+#separator{
+    
+    font-size: 18px;
+    color: #a1a1a1;
+    
+}
+
+h2 span#site-name{
+    
+    font-weight: 500;
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+h2 span#site-name a{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+h2 span#site-name a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+h2 span#parent-org{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+h2 span#parent-org a{
+    
+     color: #fff;
+     text-decoration: none;
+}
+
+#site-title-section{
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.0;
+    
+}
+
+.header-top-padding{
+    
+    padding-top: 10px;
+    
+}
+
+.header-bottom-padding{
+    
+    padding-bottom: 15px;
+    
+}
+
+h3{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-top: 15px;
+    
+}
+
+h3.doctitle{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    padding-top: 15px;
+    
+}
+
+.teasers p{
+    
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.fp-column-titles{
+    
+    border-bottom: 1px solid black;
+    font-size: 1.0em;
+    
+}
+
+.fpformat p, .fpformat ul{
+    
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.wp-caption {
+    border: 1px solid #E1E1E1;
+    padding: 5px;
+}
+
+.alignright {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+}
+
+.content-section p, .content-section ul, .content-section ol, .content-section table {
+    font-family: "Proxima Nova",arial,helvetica,sans-serif !important;
+    font-size: 10pt;
+}
+    
+.footerfmt a{
+    
+    padding: 5px;
+    
+}
+
+.footerfmt a, .footerfmt, .footerfmt p{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff !important;
+    
+}
+
+.footerfmt a:hover {
+    
+    color: #0078a0;
+    
+}
+
+.black-top-line{
+    
+    border-top: 1px solid #000;
+    
+}
+
+#footer-address-bar{
+    
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+.footer-column div p{
+    
+    font-size: 11px;
+    color: #000;
+    
+}
+
+.videos-list{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    color: #000;
+    
+}
+
+.alignleft {
+    
+    float: left;
+    margin: 5px;
+    
+}
+
+.alignright{
+    
+    float: right;
+    margin: 5px;
+    
+}
+
+table{
+    
+    border: 0 !important;
+    
+}
+
+.whitelabel{
+    
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+ul li.my-calendar-prev{
+    
+    float: left;
+    
+}
+
+ul li.my-calendar-next{
+    
+    float: right;
+    
+}
+
+.uc-engrblue{
+    
+    background-color: #0c1c67;
+    
+}
+
+.uc-engrgray{
+    
+    background-color: #d0d0d0;
+    
+}
+
+.uc-engrdarkgray{
+    
+    background-color: #d0d0d0;
+    
+}
+
+.subsection-title{
+    
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #a1a1a1;
+    display: block;
+    padding: 5px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F9F9F9), color-stop(1, #E1E1E1));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #F9F9F9 0%, #E1E1E1 100%);
+
+}
+
+#calendar-features{
+    
+    background-color: #fff;
+    
+}
+
+#upcoming-events{
+    
+    display: block;
+    
+}
+
+#frontpage-news{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#frontpage-news li img{
+    
+    margin: 5px;
+    
+}
+
+br {
+    
+    clear: both;
+    
+}
+
+.gray-gradient{
+    
+    background-color: #f9f9f9;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F9F9F9), color-stop(1, #E1E1E1));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #E1E1E1 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #F9F9F9 0%, #E1E1E1 100%);    
+    
+}
+
+#footer-address-bar .row div{
+    
+    
+}
+
+.videoText{
+    
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.videoText a{
+
+    color: #000;    
+    
+}
+
+.textwidget{
+    
+    width: 100%;
+    
+}
+
+.footer-column-titles{
+
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+
+.footer-sitemap-objs{
+    
+    
+}
+
+.footer-sitemap-objs div ul {
+    
+    list-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer-sitemap-objs div ul li {
+    
+    display: inline;
+    font-size: 7.5pt;
+    
+}
+
+.footer-sitemap-objs div ul li a {
+
+    display: block;
+    
+}
+
+#footer-text{
+    
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+#footer-text li a{
+    
+    color: #fff;
+    
+}
+
+#footer-text li a:hover{
+    
+    color: #f00;
+    
+}
+
+@media (max-width: 1024px){
+    
+#search-index-box {
+    
+display: none;
+    
+}
+
+@media (max-width: 640px){
+    
+    .nivo-caption{
+	
+	display: none !important;
+	
+    }
+    
+}
+
+@media (max-width: 480px){
+    
+#uc-fn, #uc-sep {
+    
+display: none;
+    
+}
+    
+}
