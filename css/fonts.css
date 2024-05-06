@@ -1,0 +1,77 @@
+@font-face{
+    
+    font-family:"uconn_extendedregular";
+    src:url("/wp-content/themes/engineering/css/fonts/ucone____1-webfont-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ucone____1-webfont-webfont.eot?#iefix") format("embedded-opentype"),
+	url("/wp-content/themes/engineering/css/fonts/ucone____1-webfont-webfont.svg#uconn_extendedregular") format("svg"),
+	url("/wp-content/themes/engineering/css/fonts/ucone____1-webfont-webfont.woff") format("woff"),
+	url("/wp-content/themes/engineering/css/fonts/ucone____1-webfont-webfont.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal
+    
+    }
+
+     @font-face{
+    
+    font-family:"Proxima Nova";
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Bold-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+	    url("/wp-content/themes/engineering/css/fonts/ProximaNova-Bold-webfont.svg#proxima_nova_ltsemibold") format("svg"),
+            url("/wp-content/themes/engineering/css/fonts/ProximaNova-Bold-webfont.woff") format("woff"),
+            url("/wp-content/themes/engineering/css/fonts/ProximaNova-Bold-webfont.ttf") format("truetype");
+    font-weight:bold;
+    font-style:normal;
+        
+        }
+
+    @font-face{
+    
+    font-family:"Proxima Nova";
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-BoldIt-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-BoldIt-webfont.eot?#iefix") format("embedded-opentype"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-BoldIt-webfont.svg#proxima_novabold_italic") format("svg"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-BoldIt-webfont.woff") format("woff"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-BoldIt-webfont.ttf") format("truetype");
+    font-weight:bold;
+    font-style:italic;
+    
+    }
+    
+    @font-face{
+    
+    font-family:"Proxima Nova";
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Sbold-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Sbold-webfont.eot?#iefix") format("embedded-opentype"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Sbold-webfont.svg#proxima_nova_ltsemibold") format("svg"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Sbold-webfont.woff") format("woff"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Sbold-webfont.ttf") format("truetype");font-weight:500;
+    font-style:normal;
+    
+    }
+
+    @font-face{
+    
+    font-family:"Proxima Nova";
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Reg-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-Reg-webfont.eot?#iefix") format("embedded-opentype"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format("svg"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Reg-webfont.woff") format("woff"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-Reg-webfont.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    
+    }
+
+    @font-face{
+    
+    font-family:"Proxima Nova";
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-RegIt-webfont.eot");
+    src:url("/wp-content/themes/engineering/css/fonts/ProximaNova-RegIt-webfont.eot?#iefix") format("embedded-opentype"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-RegIt-webfont.svg#proxima_novaregular_italic") format("svg"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-RegIt-webfont.woff") format("woff"),
+        url("/wp-content/themes/engineering/css/fonts/ProximaNova-RegIt-webfont.ttf") format("truetype");
+        
+    font-weight:normal;
+    font-style:italic;
+    
+    }    

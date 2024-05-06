@@ -1,0 +1,80 @@
+.top-bar{
+    
+    background-color: #ff5000 !important;
+    
+}
+
+.top-bar-section ul li {
+    background: none repeat scroll 0% 0% #333;
+    background-color: #ff5000 !important;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0px 15px;
+    line-height: 45px;
+    background: none repeat scroll 0% 0% #ff5000 !important;
+    
+}
+
+.top-bar-section li:not(.has-form) a:hover {
+    
+    background-color: #000 !important;
+    
+}
+
+.top-bar-section ul li a{
+    
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.dropdown li a{
+    
+    font-weight: bold !important;
+    color: #fff !important;
+    
+}
+
+.dropdown li a:hover{
+    
+    font-weight: bold !important;
+    color: #fff !important;
+    
+    
+}
+
+.metaslider .caption-wrap {
+position: absolute !important;
+bottom: 20% !important;
+left: 2% !important;
+background: black !important;
+color: white !important;
+opacity: 0.7 !important;
+margin: 0 !important;
+display: block !important;
+width: 50% !important;
+line-height: 1.4em !important;
+}
+
+.nivo-caption{
+    
+position: absolute;
+left: 2% !important;
+bottom: 20% !important;
+background: #000;
+color: #fff;
+width: 60%  !important;
+z-index: 8;
+padding: 5px 10px;
+opacity: 0.8;
+overflow: hidden;
+display: none;
+-moz-opacity: 0.8;
+filter: alpha(opacity=8);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+    
+}
